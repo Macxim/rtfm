@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head />
         <body className="flex flex-col items-center justify-center min-h-screen font-sans font-normal bg-white">
           <Main />
