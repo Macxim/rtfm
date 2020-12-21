@@ -10,7 +10,7 @@ export default function IndexPage({ allPosts }) {
         <section className="flex-1 p-8 text-2xl leading-normal">
         <h1 className="mb-4 text-4xl lg:text-5xl">RTFM</h1>
 
-        <ul className="space-y-3">
+        <ul>
           {allPosts.map((post) => (
             <li key={post.slug}>
               <Link as={`/posts/${post.slug}`} href="/posts/[slug]">
