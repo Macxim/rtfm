@@ -14,7 +14,7 @@ export default function IndexPage({ allPosts }) {
           {allPosts.map((post) => (
             <li key={post.slug}>
               <Link as={`/posts/${post.slug}`} href="/posts/[slug]">
-                <a className="flex flex-col md:flex-row justify-between focus:ring focus:ring-gray-300 focus:outline-none rounded-md">
+                <a className="p-2 -mx-2 flex flex-col md:flex-row justify-between focus:ring focus:ring-gray-300 focus:outline-none rounded-md">
                   <h4 className="hover:underline text-lg md:text-xl">
                   {post.title}
                   </h4>
