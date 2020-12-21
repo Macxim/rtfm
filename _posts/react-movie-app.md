@@ -18,7 +18,7 @@ Below is a list of micro posts that describe the progress of the project.
     </a>
   </li>
   <li>
-    <a class="hover:underline" href="https://eiga.macx.im/">
+    <a class="hover:underline" href="https://github.com/macxim/eiga">
       💻 Check out the code
     </a>
   </li>
