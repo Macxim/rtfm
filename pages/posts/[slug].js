@@ -17,7 +17,7 @@ export default function Post({ post }) {
             <h1 className="mb-4 text-4xl lg:text-5xl">{post.title}</h1>
             <p className={post.date}></p>
           </header>
-          <div className="prose lg:prose-xl" dangerouslySetInnerHTML={{ __html: post.content }}/>
+          <div className="prose-xl" dangerouslySetInnerHTML={{ __html: post.content }}/>
         </article>
       </main>
     </>
