@@ -16,7 +16,7 @@ export default function IndexPage({ allPosts }) {
                   <h2 className="text-lg hover:underline md:text-xl">
                   {post.title}
                   </h2>
-                  <time datetime={post.date} className="text-base leading-8 text-left text-gray-600 cursor-default md:text-right md:mb-0 md:ml-16">{post.date}</time>
+                  <time dateTime={post.date} className="text-base leading-8 text-left text-gray-600 cursor-default md:text-right md:mb-0 md:ml-16">{post.date}</time>
                 </a>
               </Link>
             </article>
